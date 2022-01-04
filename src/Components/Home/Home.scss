@@ -1,0 +1,50 @@
+@import '../../Color/basicColor';
+ 
+.home-page{
+    background-image: url('../../assets/bg\ sofa.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px 50px 220px;
+
+    &__main-heading{
+        width: 220px;
+        padding: 10px 0 0;
+    }
+
+    &__sub-heading{
+        width: 250px;
+
+        &--small-text{
+            font-weight: 400;
+        }
+    }
+
+    &__buttons{
+        display: flex;
+        gap: 20px;
+        
+        &--round-button {
+            cursor: pointer;
+            border-radius: 30px;
+            padding: 8px 25px 6px;
+        }
+
+        &--dark-button{
+            background-color: $darkgreen;
+            border: none;
+            &:hover{
+                background-color: rgba($color: $darkgreen, $alpha: 0.5);
+            }
+        }
+
+        &--light-button{
+            background:none;
+            border: 1px solid $white;
+            &:hover{
+                background-color: rgba($color: $white, $alpha: 0.2);
+            }
+        }
+
+    }
+}
