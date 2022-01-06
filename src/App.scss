@@ -1,6 +1,15 @@
-@import './Color/basicColor';
+@import "./Color/basicColor";
 
-.app-border{
-    padding: 20px;
+* {
+    box-sizing: border-box;
+}
+.app-border {
+    padding: 30px 20px;
     background-color: $lightgreen;
+}
+
+@media only screen and (max-width: 770px) {
+    .app-border {
+        padding: 10px 0 20px;
+    }
 }
