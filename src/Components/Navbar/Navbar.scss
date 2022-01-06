@@ -1,15 +1,5 @@
 @import "../../Color/basicColor";
-
-* {
-    color: $white;
-
-    a {
-        text-decoration: none;
-        &:hover{
-            text-decoration: underline;
-        }
-    }
-}
+@import "~react-pro-sidebar/dist/scss/styles.scss";
 
 .navbar {
     background-color: $lightolivegreen;
@@ -20,10 +10,25 @@
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 
+    * {
+        a {
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
     &__logo-name {
+        color: $white;
         font-size: large;
         font-weight: bold;
         align-self: center;
+    }
+
+    &__side-navbar {
+        margin-left: auto;
+        display: none;
     }
 
     &__nav-links {
@@ -33,6 +38,10 @@
         font-weight: 500;
         max-width: 800px;
         min-width: 400px;
+
+        * {
+            color: $white;
+        }
 
         ul {
             list-style: none;
@@ -45,6 +54,7 @@
         align-self: center;
 
         &--round-button {
+            color: $white;
             cursor: pointer;
             background-color: $darkgreen;
             border: none;
@@ -53,6 +63,21 @@
             &:hover {
                 background-color: rgba($color: $darkgreen, $alpha: 0.6);
             }
+        }
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .navbar {
+        &__side-navbar {
+            display: flex;
+        }
+
+        &__nav-links {
+            display: none;
+        }
+        &__login-button{
+            display: none;
         }
     }
 }
