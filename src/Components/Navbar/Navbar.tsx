@@ -20,10 +20,10 @@ function Navbar() {
                 <div className="navbar__nav-links">
                     <ul>
                         <li><Link to='e-furniture/'>Home</Link></li>
-                        <li><Link to='about/'>About us</Link></li>
-                        <li><Link to='furniture/'>Furniture</Link></li>
-                        <li><Link to='blog/'>Blog</Link></li>
-                        <li><Link to='contact_us/'>Contact us</Link></li>
+                        <li><Link to='e-furniture/about/'>About us</Link></li>
+                        <li><Link to='e-furniture/furniture/'>Furniture</Link></li>
+                        <li><Link to='e-furniture/blog/'>Blog</Link></li>
+                        <li><Link to='e-furniture/contact_us/'>Contact us</Link></li>
                     </ul>
                 </div>
                 <div className="navbar__login-button">
