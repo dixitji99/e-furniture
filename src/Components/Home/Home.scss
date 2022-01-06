@@ -1,50 +1,142 @@
-@import '../../Color/basicColor';
- 
-.home-page{
-    background-image: url('../../assets/bg\ sofa.JPG');
+@import "../../Color/basicColor";
+
+.home-page-top {
+    background-image: url("../../assets/bg\ sofa.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding: 10px 50px 220px;
+    * {
+        color: $white;
+    }
 
-    &__main-heading{
-        width: 220px;
+    &__main-heading {
+        max-width: 220px;
         padding: 10px 0 0;
     }
 
-    &__sub-heading{
-        width: 250px;
+    &__sub-heading {
+        max-width: 250px;
 
-        &--small-text{
+        &--small-text {
             font-weight: 400;
         }
     }
 
-    &__buttons{
+    &__buttons {
         display: flex;
         gap: 20px;
-        
+
         &--round-button {
             cursor: pointer;
             border-radius: 30px;
             padding: 8px 25px 6px;
         }
 
-        &--dark-button{
+        &--dark-button {
             background-color: $darkgreen;
             border: none;
-            &:hover{
+            &:hover {
                 background-color: rgba($color: $darkgreen, $alpha: 0.5);
             }
         }
 
-        &--light-button{
-            background:none;
+        &--light-button {
+            background: none;
             border: 1px solid $white;
-            &:hover{
+            &:hover {
                 background-color: rgba($color: $white, $alpha: 0.2);
             }
         }
+    }
+}
 
+.home-page-bottom {
+    background-color: $white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 50px;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+
+    &__column-1 {
+        flex: 1;
+        padding: 20px 20px 30px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        &--big-text {
+            max-width: 180px;
+        }
+
+        &--small-text {
+            font-size: small;
+            max-width: 240px;
+            color: grey;
+        }
+
+        &--circular-arrow {
+            font-size: large;
+            border-radius: 20px;
+            width: fit-content;
+            background-color: $lightolivegreen;
+            color: white;
+            border: none;
+            padding: 9px 13px;
+            margin: 30px 0 0 30px;
+            &:hover {
+                background-color: rgba($color: $lightolivegreen, $alpha: 0.8);
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__column-2 {
+        flex: 1;
+        padding: 0 13px;
+        display: flex;
+        flex-direction: column;
+
+        &--prod-name {
+            align-self: center;
+            margin-top: 10px;
+        }
+        &--prod-price {
+            margin-top: 10px;
+            align-self: center;
+        }
+        &:hover {
+            background-color: rgba($color: $lightgreen, $alpha: 0.7);
+            cursor: pointer;
+        }
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .home-page-top {
+        padding: 10px 4px 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__main-heading {
+          text-align: center;
+        }
+
+        &__sub-heading {
+          text-align: center;
+        }
+    }
+
+    .home-page-bottom {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px;
+
+        &__column-1 {
+            padding: 20px 0 30px 0;
+            align-items: center;
+            text-align: center;
+        }
     }
 }
