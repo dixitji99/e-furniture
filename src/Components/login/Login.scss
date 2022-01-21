@@ -1,0 +1,125 @@
+@import "../../Color/basicColor";
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    &__input-name {
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+        background: none;
+        color: black;
+        padding: 8px 10px;
+        width: 260px;
+    }
+    &__confirm-option {
+        display: flex;
+        flex-direction: row;
+        &--small-text {
+            font-size: x-small;
+            font-weight: 600;
+            margin: 0;
+            align-self: center;
+        }
+        &--green-box {
+            background-color: $lightolivegreen;
+            color: $lightolivegreen;
+            &:checked {
+                background-color: $lightolivegreen;
+            }
+        }
+        a {
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    &__sign-option {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        &--round-button {
+            border-radius: 5px;
+            border: 1px solid $mediumolivegreen;
+            cursor: pointer;
+            flex: 1;
+            padding-top: 9px;
+            padding-bottom: 6px;
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+        &--light-button {
+            background: none;
+            color: $mediumolivegreen;
+        }
+        &--dark-button {
+            background-color: $mediumolivegreen;
+            color: white;
+        }
+    }
+    &__forgot-password {
+        display: flex;
+        justify-content: right;
+        &--small-text {
+            text-decoration: none;
+            font-size: small;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.signup-block {
+    display: flex;
+
+    .left-block {
+        display: flex;
+        flex-direction: column;
+        flex: 1.2;
+        background-color: aliceblue;
+        align-items: center;
+        padding: 20px;
+        border-end-start-radius: 10px;
+
+        &--heading-text {
+            color: $lightolivegreen;
+            font-size: 35px;
+        }
+    }
+    .media-logos {
+        display: flex;
+        gap: 20px;
+        &--round-button {
+            border-radius: 50%;
+            border: 1px solid black;
+            padding: 8px 10px 7px;
+            cursor: pointer;
+            background: none;
+        }
+        :hover {
+            background-color: $lightgreen;
+            color: $lightolivegreen;
+        }
+    }
+    .right-block {
+        flex: 0.8;
+        background-image: url("../../assets/loginbg.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-end-end-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .signup-block {
+        .left-block {
+            width: 100%;
+        }
+        .right-block {
+            display: none;
+        }
+    }
+}
