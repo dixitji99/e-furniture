@@ -37,7 +37,7 @@ export const SidebarData = [
     },
     {
         title:'Login',
-        path:'e-furniture/login',
+        path:'login/',
         icon:<RiIcons.RiLoginCircleLine />,
         className:'nav-text'
     }
