@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/e-furniture/static/css/main.e7254414.css",
-    "main.js": "/e-furniture/static/js/main.66133c8a.js",
+    "main.css": "/e-furniture/static/css/main.17c7374e.css",
+    "main.js": "/e-furniture/static/js/main.bbab40ac.js",
     "static/js/787.9d55ca0f.chunk.js": "/e-furniture/static/js/787.9d55ca0f.chunk.js",
+    "static/media/loginbg.jpeg": "/e-furniture/static/media/loginbg.942c72226b0c325d749e.jpeg",
     "static/media/bg sofa.JPG": "/e-furniture/static/media/bg sofa.cf8a8ecf6eb082a0f791.JPG",
     "static/media/chair3.jpeg": "/e-furniture/static/media/chair3.e982be2fb19ecebd0625.jpeg",
     "static/media/product1.jpg": "/e-furniture/static/media/product1.5355aafbe9673a147089.jpg",
     "static/media/chair4.jpeg": "/e-furniture/static/media/chair4.81efea1ff38e4f49ac61.jpeg",
     "index.html": "/e-furniture/index.html",
-    "main.e7254414.css.map": "/e-furniture/static/css/main.e7254414.css.map",
-    "main.66133c8a.js.map": "/e-furniture/static/js/main.66133c8a.js.map",
+    "main.17c7374e.css.map": "/e-furniture/static/css/main.17c7374e.css.map",
+    "main.bbab40ac.js.map": "/e-furniture/static/js/main.bbab40ac.js.map",
     "787.9d55ca0f.chunk.js.map": "/e-furniture/static/js/787.9d55ca0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7254414.css",
-    "static/js/main.66133c8a.js"
+    "static/css/main.17c7374e.css",
+    "static/js/main.bbab40ac.js"
   ]
 }
