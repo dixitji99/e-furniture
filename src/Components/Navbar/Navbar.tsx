@@ -27,7 +27,7 @@ function Navbar() {
                     </ul>
                 </div>
                 <div className="navbar__login-button">
-                    <Link to='login_page/'><button className='navbar__login-button--round-button'>Login</button></Link>
+                    <Link to='login/'><button className='navbar__login-button--round-button'>Login</button></Link>
                 </div>
 
             </div>

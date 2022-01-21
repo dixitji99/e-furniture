@@ -1,5 +1,4 @@
 import './Home.scss'
-import chair2 from '../../assets/chair2.jpeg';
 import product1 from '../../assets/product1.jpg';
 import chair3 from '../../assets/chair3.jpeg';
 import chair4 from '../../assets/chair4.jpeg';
