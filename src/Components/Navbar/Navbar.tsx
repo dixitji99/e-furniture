@@ -21,9 +21,9 @@ function Navbar() {
                     <ul>
                         <li><Link to='e-furniture/'>Home</Link></li>
                         <li><Link to='e-furniture/about/'>About us</Link></li>
-                        <li><Link to='e-furniture/furniture/'>Furniture</Link></li>
-                        <li><Link to='e-furniture/blog/'>Blog</Link></li>
-                        <li><Link to='e-furniture/contact_us/'>Contact us</Link></li>
+                        <li><Link to='e-furniture/furniture/'>Furnitures</Link></li>
+                        <li><Link to='e-furniture/cart/'>Cart</Link></li>
+                        <li><Link to='e-furniture/wishlist/'>Wishlist</Link></li>
                     </ul>
                 </div>
                 <div className="navbar__login-button">

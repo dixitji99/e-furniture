@@ -1,0 +1,44 @@
+@import "../../Color/basicColor";
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: $darkolivegreen;
+    margin: 4px 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    &__product-details {
+        margin: 4px 0 1px 15px;
+    }
+    
+    &__product-image {
+        height: 200px;
+        width: 198px;
+    }
+
+    &__product-name {
+        margin: 5px 0;
+        color: $lightolivegreen;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &__rating-stars {
+        margin: 0 0;
+        &--checked {
+            fill: wheat;
+        }
+    }
+
+    &__product-price {
+        margin: 0;
+        color: $lightgreen;
+    }
+}

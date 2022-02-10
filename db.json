@@ -1,0 +1,146 @@
+{
+    "thumbnail-product": [
+        {
+            "id": 1,
+            "name": "Green Sofa Chair",
+            "image": "https://ii1.pepperfry.com/media/catalog/product/m/e/800x880/mesa-lounge-chair-in-green-colour-by-adorn-homez-mesa-lounge-chair-in-green-colour-by-adorn-homez-fz4ref.jpg",
+            "price": "14,560"
+        },
+        {
+            "id": 2,
+            "name": "EZtect Banana Plant",
+            "image": "https://rukminim1.flixcart.com/image/832/832/k9oj8280/plant-sapling/4/q/p/modbanana36-1-dream-mall-original-imafreyvnvn8zcmz.jpeg?q=70",
+            "price": "460"
+        },
+        {
+            "id": 3,
+            "name": "EQ Outdoor Chair",
+            "image": "https://cdn.shopify.com/s/files/1/0683/6411/products/Artboard1copy_35a59104-31cf-44cf-b428-3dcafa4b6487_900x900.jpg?v=1639754937",
+            "price": "4,000"
+        }
+    ],
+    "furnitures": [
+        {
+            "id": 1,
+            "name": "Green Sofa Chair",
+            "image": "https://ii1.pepperfry.com/media/catalog/product/m/e/800x880/mesa-lounge-chair-in-green-colour-by-adorn-homez-mesa-lounge-chair-in-green-colour-by-adorn-homez-fz4ref.jpg",
+            "price": "14,560",
+            "quantity_available": 200,
+            "weight": "10kg"
+        },
+        {
+            "id": 2,
+            "name": "2 Chair and Table Set",
+            "image": "https://images.unsplash.com/photo-1554295405-abb8fd54f153?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=326&q=80",
+            "price": "16,000",
+            "quantity_available": 200,
+            "weight": ">10kg"
+        },
+        {
+            "id": 3,
+            "name": "Study Chair",
+            "image": "https://images.unsplash.com/photo-1517705008128-361805f42e86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1987&q=80",
+            "price": "3,000",
+            "quantity_available": 200,
+            "weight": "1kg"
+        },
+        {
+            "id": 4,
+            "name": "EQ Indoor Chair",
+            "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+            "price": "3,700",
+            "quantity_available": 200,
+            "weight": "1kg"
+        },
+        {
+            "id": 5,
+            "name": "Wooden Six Rack Cupboard",
+            "image": "https://images.unsplash.com/photo-1616464916265-68fc457bdc70?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=666&q=80",
+            "price": "11,470",
+            "quantity_available": 200,
+            "weight": "12kg"
+        },
+        {
+            "id": 6,
+            "name": "EQ Outdoor Chair",
+            "image": "https://cdn.shopify.com/s/files/1/0683/6411/products/Artboard1copy_35a59104-31cf-44cf-b428-3dcafa4b6487_900x900.jpg?v=1639754937",
+            "price": "4,000",
+            "quantity_available": 200,
+            "weight": "1kg"
+        },
+        {
+            "id": 7,
+            "name": "EZtect Banana Plant",
+            "image": "https://rukminim1.flixcart.com/image/832/832/k9oj8280/plant-sapling/4/q/p/modbanana36-1-dream-mall-original-imafreyvnvn8zcmz.jpeg?q=70",
+            "price": "460",
+            "quantity_available": 200,
+            "weight": "1kg"
+        },
+        {
+            "id": 8,
+            "name": "Green Sofa Chair",
+            "image": "https://ii1.pepperfry.com/media/catalog/product/m/e/800x880/mesa-lounge-chair-in-green-colour-by-adorn-homez-mesa-lounge-chair-in-green-colour-by-adorn-homez-fz4ref.jpg",
+            "price": "14,560",
+            "quantity_available": 200,
+            "weight": "10kg"
+        },
+        {
+            "id": 9,
+            "name": "2 Chair and Table Set",
+            "image": "https://images.unsplash.com/photo-1554295405-abb8fd54f153?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=326&q=80",
+            "price": "16,000",
+            "quantity_available": 200,
+            "weight": ">10kg"
+        },
+        {
+            "id": 10,
+            "name": "Study Chair",
+            "image": "https://images.unsplash.com/photo-1517705008128-361805f42e86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1987&q=80",
+            "price": "3,000",
+            "quantity_available": 200,
+            "weight": "1kg"
+        },
+        {
+            "id": 11,
+            "name": "EQ Indoor Chair",
+            "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+            "price": "3,700",
+            "quantity_available": 200,
+            "weight": "1kg"
+        },
+        {
+            "id": 12,
+            "name": "Wooden Six Rack Cupboard",
+            "image": "https://images.unsplash.com/photo-1616464916265-68fc457bdc70?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=666&q=80",
+            "price": "11,470",
+            "quantity_available": 200,
+            "weight": "12kg"
+        },
+        {
+            "id": 13,
+            "name": "EQ Outdoor Chair",
+            "image": "https://cdn.shopify.com/s/files/1/0683/6411/products/Artboard1copy_35a59104-31cf-44cf-b428-3dcafa4b6487_900x900.jpg?v=1639754937",
+            "price": "4,000",
+            "quantity_available": 200,
+            "weight": "1kg"
+        },
+        {
+            "id": 14,
+            "name": "EZtect Banana Plant",
+            "image": "https://rukminim1.flixcart.com/image/832/832/k9oj8280/plant-sapling/4/q/p/modbanana36-1-dream-mall-original-imafreyvnvn8zcmz.jpeg?q=70",
+            "price": "460",
+            "quantity_available": 200,
+            "weight": "1kg"
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    }
+}
