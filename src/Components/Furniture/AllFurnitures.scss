@@ -1,0 +1,10 @@
+@import "../../Color/basicColor";
+
+.product-spec {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    
+    a {
+        text-decoration: none;
+    }
+}

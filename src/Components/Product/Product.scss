@@ -1,0 +1,130 @@
+@import "../../Color/basicColor";
+
+.product-description {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    &__image-block {
+        display: flex;
+        flex: 0 0 50%;
+        height: 470px;
+        background-color: lightcyan;
+        justify-content: center;
+        border-bottom-left-radius: 10px;
+    }
+
+    &__product-image {
+        max-width: 300px;
+        max-height: 300px;
+        align-self: center;
+        border-radius: 5px;
+        box-shadow: 2px 6px 8px 0 rgba(14, 119, 40, 0.2), 4px 10px 20px 0 rgba(2, 43, 15, 0.19);
+
+        &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+    }
+
+    &__wishlist-icon {
+        position: absolute;
+        top: 10%;
+        right: 10%;
+        height: 30px;
+        width: 30px;
+        &--checked {
+            fill: $darkolivegreen;
+            opacity: 1;
+            animation: mymove 1s normal;
+        }
+        @keyframes mymove {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        &--unchecked {
+            fill: $darkolivegreen;
+            opacity: 0;
+        }
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__product-detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 0 0 50%;
+        background-color: lightgray;
+        border-bottom-right-radius: 10px;
+        padding: 20px 50px;
+        position: relative;
+
+        &--heading-text {
+            margin: 0;
+
+            &:hover {
+                text-shadow: 0 4px 8px rgba(0, 40, 0, 0.8);
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+        }
+        &--price-text {
+            margin: 3px;
+
+            &:hover {
+                text-shadow: 0 4px 8px rgba(0, 40, 0, 0.8);
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+        }
+        &--small-text {
+            margin: 5px 3px;
+            font-size: smaller;
+
+            &:hover {
+                text-shadow: 0 4px 8px rgba(0, 40, 0, 0.8);
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+        }
+        &--round-button {
+            margin: 15px 0;
+            font-size: small;
+            font-weight: bolder;
+            width: 190px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: rgba($color: rgb(23, 170, 23), $alpha: 0.8);
+            border: none;
+
+            &:hover {
+                background-color: rgba($color: rgb(23, 170, 23), $alpha: 1);
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+        }
+    }
+    &__rating-stars {
+        margin: 0;
+
+        &--small-text {
+            margin: 0 4px;
+            font-size: small;
+            color: green;
+            font-weight: bolder;
+        }
+        &--checked {
+            fill: green;
+        }
+        &--unchecked {
+            fill: grey;
+        }
+    }
+}
